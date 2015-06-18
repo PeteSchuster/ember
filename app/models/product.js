@@ -6,7 +6,6 @@ export default DS.Model.extend({
   imageThumbnail: DS.attr('string'),
   imageMedium: DS.attr('string'),
   imageDetail: DS.attr('string'),
-  inCart: DS.attr('boolean'),
   price: DS.attr('int')
 }).reopenClass({
   FIXTURES: [
